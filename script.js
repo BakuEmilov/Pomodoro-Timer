@@ -67,3 +67,20 @@ function start() {
     // start countdown
     setInterval(timerFunction, 1000); // 1000 = 1s
 }
+
+// изменение времени работы
+function changeWorkTime() {
+    let newWorkTime = prompt("Введите новое время работы (в минутах):");
+    if (newWorkTime) {
+      workTime = parseInt(newWorkTime);
+      document.getElementById('minutes').innerHTML = workTime;
+    }
+  }
+  
+  // изменение времени перерыва
+  function changeBreakTime() {
+    let newBreakTime = prompt("Введите новое время перерыва (в минутах):");
+    if (newBreakTime) {
+      breakTime = parseInt(newBreakTime);
+    }
+  }
