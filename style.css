@@ -17,8 +17,8 @@
 html, body {
   height: 100%;
   background-color: var(--color-primary);
-  font-size: 1.6rem;
-  font-family: 'Open sans', sans-serif;
+  font-size: 1.6rem;  
+  font-family: 'Helvetica Neue', sans-serif;
 }
 
 p,
